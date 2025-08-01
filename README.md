@@ -107,18 +107,16 @@ matplotlib
   <pre>
 salary-prediction/
 │
-├── salary.csv           # Dataset
+├── salary.csv  
+├── code for salaryprediction.ipynb
 ├── app.py               # Streamlit interface
-├── model.py             # ML code
+├── Linearmodel.py             # ML code
 ├── requirements.txt     # Dependencies
 └── README.md            # Documentation
   </pre>
 
   <h2>👤 Author</h2>
   <p><strong>Areeza Usmani</strong></p>
-
-  <h2>📃 License</h2>
-  <p>This project is licensed under the <strong>MIT License</strong>.</p>
 
 </body>
 </html>
