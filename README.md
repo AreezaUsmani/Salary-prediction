@@ -1,48 +1,5 @@
 # Salary-prediction
 This project aims to predict an individual’s salary based on their years of professional experience using a supervised machine learning model. It leverages a Linear Regression algorithm to learn the relationship between experience and salary from historical data
-<!DOCTYPE html>
-<html lang="en">
-<head>
-  <meta charset="UTF-8">
-  <title>Salary Prediction using Ensemble Learning</title>
-  <style>
-    body {
-      font-family: 'Segoe UI', sans-serif;
-      line-height: 1.6;
-      margin: 20px;
-      color: #333;
-    }
-    h1, h2 {
-      color: #2c3e50;
-    }
-    code {
-      background: #f4f4f4;
-      padding: 2px 6px;
-      border-radius: 4px;
-      font-family: monospace;
-    }
-    pre {
-      background: #f4f4f4;
-      padding: 10px;
-      border-left: 4px solid #3498db;
-      overflow-x: auto;
-    }
-    ul {
-      list-style-type: square;
-      margin-left: 20px;
-    }
-    .tag {
-      display: inline-block;
-      background: #3498db;
-      color: white;
-      padding: 3px 8px;
-      border-radius: 5px;
-      margin-right: 5px;
-      font-size: 0.85em;
-    }
-  </style>
-</head>
-<body>
 
   <h1>💼 Salary Prediction using Ensemble Learning</h1>
 
