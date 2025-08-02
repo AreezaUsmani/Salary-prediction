@@ -48,9 +48,8 @@ This project aims to predict an individual’s salary based on their years of pr
 
   <p>
     This is a Streamlit-powered web app that predicts salaries based on a user’s <strong>Years of Experience</strong>. It uses ensemble models like
-    <span class="tag">Random Forest</span>,
-    <span class="tag">Gradient Boosting</span>, and
-    <span class="tag">Bagging Regressor</span>
+    <span class="tag">Linear Regression</span>, and
+    <span class="tag">Bagging Classifier</span>
     for high-accuracy predictions.
   </p>
 
@@ -68,9 +67,8 @@ YearsExperience,Salary
 
   <h2>🧠 Models Used</h2>
   <ul>
-    <li>Random Forest Regressor ✅</li>
-    <li>Gradient Boosting Regressor ✅</li>
-    <li>Bagging Regressor ✅</li>
+    <li>Linear Regression ✅</li>
+    <li>Bagging Classifier ✅</li>
   </ul>
 
   <h2>🖥 App Features</h2>
