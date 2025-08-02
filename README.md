@@ -93,6 +93,7 @@ streamlit
 pandas
 scikit-learn
 matplotlib
+numpy
   </pre>
 
   <h2>🧪 Sample Usage</h2>
