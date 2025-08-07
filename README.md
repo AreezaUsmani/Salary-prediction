@@ -1,12 +1,62 @@
 # Salary-prediction
-This project aims to predict an individual’s salary based on their years of professional experience using a supervised machine learning model. It leverages a Linear Regression algorithm to learn the relationship between experience and salary from historical data
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Salary Prediction using Ensemble Learning</title>
+  <style>
+    body {
+      font-family: 'Segoe UI', sans-serif;
+      line-height: 1.6;
+      margin: 20px;
+      color: #333;
+    }
+    h1, h2 {
+      color: #2c3e50;
+    }
+    code {
+      background: #f4f4f4;
+      padding: 2px 6px;
+      border-radius: 4px;
+      font-family: monospace;
+    }
+    pre {
+      background: #f4f4f4;
+      padding: 10px;
+      border-left: 4px solid #3498db;
+      overflow-x: auto;
+    }
+    ul {
+      list-style-type: square;
+      margin-left: 20px;
+    }
+    .tag {
+      display: inline-block;
+      background: #3498db;
+      color: white;
+      padding: 3px 8px;
+      border-radius: 5px;
+      margin-right: 5px;
+      font-size: 0.85em;
+    }
+    img {
+      border: 1px solid #ccc;
+      border-radius: 6px;
+      max-width: 100%;
+      height: auto;
+      margin-top: 10px;
+    }
+  </style>
+</head>
+<body>
 
   <h1>💼 Salary Prediction using Ensemble Learning</h1>
 
   <p>
     This is a Streamlit-powered web app that predicts salaries based on a user’s <strong>Years of Experience</strong>. It uses ensemble models like
-    <span class="tag">Linear Regression</span>, and
-    <span class="tag">Bagging Classifier</span>
+    <span class="tag">Random Forest</span>,
+    <span class="tag">Gradient Boosting</span>, and
+    <span class="tag">Bagging Regressor</span>
     for high-accuracy predictions.
   </p>
 
@@ -24,8 +74,9 @@ YearsExperience,Salary
 
   <h2>🧠 Models Used</h2>
   <ul>
-    <li>Linear Regression ✅</li>
-    <li>Bagging Classifier ✅</li>
+    <li>Random Forest Regressor ✅</li>
+    <li>Gradient Boosting Regressor ✅</li>
+    <li>Bagging Regressor ✅</li>
   </ul>
 
   <h2>🖥 App Features</h2>
@@ -50,7 +101,6 @@ streamlit
 pandas
 scikit-learn
 matplotlib
-numpy
   </pre>
 
   <h2>🧪 Sample Usage</h2>
@@ -59,20 +109,28 @@ numpy
     <li><strong>Output:</strong> ₹72,000 (predicted salary)</li>
   </ul>
 
+  <h2>🖼 Output Example</h2>
+  <p>Here’s how the prediction looks in the app:</p>
+  <img src="<img width="1886" height="966" alt="output" src="https://github.com/user-attachments/assets/bbb48375-dc78-4be4-b971-fdb6c9cd9f1a" />
+" alt="Salary Prediction Output Example">
+
   <h2>📁 File Structure</h2>
   <pre>
 salary-prediction/
 │
-├── salary.csv  
-├── code for salaryprediction.ipynb
+├── salary.csv           # Dataset
 ├── app.py               # Streamlit interface
-├── Linearmodel.py             # ML code
+├── model.py             # ML code
+├── output.png           # Output screenshot
 ├── requirements.txt     # Dependencies
-└── README.md            # Documentation
+└── README.html          # Documentation
   </pre>
 
   <h2>👤 Author</h2>
   <p><strong>Areeza Usmani</strong></p>
+
+  <h2>📃 License</h2>
+  <p>This project is licensed under the <strong>MIT License</strong>.</p>
 
 </body>
 </html>
