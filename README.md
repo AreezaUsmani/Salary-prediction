@@ -3,9 +3,8 @@
 
   <p>
     This is a Streamlit-powered web app that predicts salaries based on a user’s <strong>Years of Experience</strong>. It uses ensemble models like
-    <span class="tag">Random Forest</span>,
-    <span class="tag">Gradient Boosting</span>, and
-    <span class="tag">Bagging Regressor</span>
+    <span class="tag">Linear Regression</span>, and
+    <span class="tag">Bagging Classifier</span>
     for high-accuracy predictions.
   </p>
 
@@ -23,9 +22,8 @@ YearsExperience,Salary
 
   <h2>🧠 Models Used</h2>
   <ul>
-    <li>Random Forest Regressor ✅</li>
-    <li>Gradient Boosting Regressor ✅</li>
-    <li>Bagging Regressor ✅</li>
+    <li>Linear Regression✅</li>
+    <li>Bagging Classifier✅</li>
   </ul>
 
   <h2>🖥 App Features</h2>
@@ -76,9 +74,6 @@ salary-prediction/
 
   <h2>👤 Author</h2>
   <p><strong>Areeza Usmani</strong></p>
-
-  <h2>📃 License</h2>
-  <p>This project is licensed under the <strong>MIT License</strong>.</p>
 
 </body>
 </html>
