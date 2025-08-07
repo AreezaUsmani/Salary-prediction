@@ -60,8 +60,7 @@ matplotlib
 
   <h2>🖼 Output Example</h2>
   <p>Here’s how the prediction looks in the app:</p>
-  <img src="<img width="1886" height="966" alt="output" src="https://github.com/user-attachments/assets/bbb48375-dc78-4be4-b971-fdb6c9cd9f1a" />
-" alt="Salary Prediction Output Example">
+  <img src="output.png" alt="Salary Prediction Output Example">
 
   <h2>📁 File Structure</h2>
   <pre>
